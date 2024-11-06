@@ -5,6 +5,19 @@ body {
    padding: 0;
    background-color: #333;
 }
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   background-color: rgba(24, 103, 221, 0.7); /* Fond semi-transparent pour le header */
+   color: white;
+}
+.logo img {
+   width: 700px;
+   height: 63px;
+
+}
 
 .container {
    max-width: 600px;
